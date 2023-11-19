@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#127998"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_marginBottom="50sp"
+        android:src="@drawable/logo" />
+    
+    <ImageView
+        android:id="@+id/imageViewFingerPrint"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="10sp"
+        android:src="@drawable/download"
+         />
+
+    <Button
+        android:id="@+id/buttonInit"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Authenticate"
+        android:onClick="capture1"
+         />
+    
+	<!-- 
+    <Button
+        android:id="@+id/buttonUnInit"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Capture 2"
+        android:onClick="capture2" />
+    
+    <Button
+        android:id="@+id/buttonVerify"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:onClick="verify" />
+         -->
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
